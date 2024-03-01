@@ -1,7 +1,7 @@
 from shutil import copytree, copy2, rmtree
 from time import sleep
 from os import makedirs, mkdir
-from os.path import expanduser, join, isdir
+from os.path import expanduser, join, isdir, dirname
 from tqdm import tqdm
 import git, sys, os
 
@@ -16,6 +16,8 @@ class Kde(System):
     CONFIG_FILES = ['albafetch/', 'autostart/', 'btop/', 'dolphinrc', 'fish/', 'flameshot/', 'flameshotrc', 'fontconfig/', 'kdedefaults/', 
                     'konsolerc', 'krunnerrc', 'kscreenlockerrc', 'Kvantum/', 'kwinrc', 'latte', 'neofetch/', 
                     'plasma-org.kde.plasma.desktop-appletsrc', 'plasmarc', 'powermanagementprofilesrc', 'xsettingsd/', 'yakuakerc',] # kscreenlockerrc plasma-org.kde.plasma.desktop-appletsrc plasmarc
+    
+    HOME_FILES = ['.alias.conf', '.bash_profile', '.bashrc', '.bashrc1', '.logseq/', '.screenlayout/']
 
 ##########################
 #        FUNCTIONS       #
@@ -25,24 +27,34 @@ def copy(src, dst):
     if isdir(src):
         copytree(src, dst)
     else:
+        makedirs(dirname(dst), exist_ok=True)
         copy2(src, dst)
+
 
 def kde():
     kde = Kde()
     
-    rmtree("kde/", ignore_errors=True)
-    makedirs("kde", exist_ok=True)
+    rmtree('kde/', ignore_errors=True)
+    makedirs('kde', exist_ok=True)
     
-    print("start saving ~/.config folder")
+    print('start saving ~/.config folder')
     with tqdm(total=len(kde.CONFIG_FILES)) as progressBar:
-        for config_file in kde.CONFIG_FILES:  
-            copy(join(kde.CONFIG_DIR, config_file), join("kde/.config", config_file)  )
+        for i in kde.CONFIG_FILES:  
+            copy(join(kde.CONFIG_DIR, i), join('kde/.config', i))
             sleep(0.01)
             progressBar.update(1)
             
+    print('start saving home (~/) folder')
+    with tqdm(total=len(kde.HOME_FILES)) as progressBar:
+        for i in kde.HOME_FILES:
+            copy(join(kde.HOME_DIR, i), join("kde/home", i))
+            sleep(0.01)
+            progressBar.update(1)
+    
+            
     
 def hyprland():
-    print("test")
+    print('test')
     
 ##########################
 #         STARTUP        #
