@@ -84,9 +84,9 @@ choise = int(input('do you want to update KDE config or hyprland config?\n[1] KD
 system('clear')
 if choise == 1:
     kde()
-    #repo.index.add('.')
+    repo.index.add('.')
     print("file are added to repository")
-    #repo.index.commit('update KDE .dotfile')
+    repo.index.commit('update KDE .dotfile')
     print("commit effettuated")
 elif choise == 2:
     hyprland()
@@ -94,5 +94,5 @@ else:
     print('unhandled input')
     exit(1)
 
-#origin.push()
+origin.push()
 print("local repository pushed on github")
