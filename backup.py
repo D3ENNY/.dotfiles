@@ -1,9 +1,10 @@
 from shutil import copy, copytree, copy2, rmtree
 from time import sleep
-from os import makedirs, mkdir
+from os import makedirs, mkdir, system
 from os.path import expanduser, join, isdir, dirname
+from sys import exit
 from tqdm import tqdm
-import git, sys, os
+from git import Repo
 
 ##########################
 #        VARIABLES       #
@@ -28,6 +29,8 @@ class Kde(System):
     
     LOCAL_SHARE_FILE = ['applications/', 'icons/', 'konsole/', 'plasma_icons/', 'uptime-record']
 
+repo = Repo('./')
+origin = repo.remote('origin')
 ##########################
 #        FUNCTIONS       #
 ##########################
@@ -38,6 +41,13 @@ def copy(src, dst):
     else:
         makedirs(dirname(dst), exist_ok=True)
         copy2(src, dst)
+        
+def backupCategory(src, dst, files):
+    with tqdm(total=len(files)) as progressBar:
+        for i in files:
+            copy(join(src, i), join(dst, i))
+            sleep(0.01)
+            progressBar.update(1)
 
 def kde():
     
@@ -45,39 +55,21 @@ def kde():
     makedirs('kde', exist_ok=True)
     
     print('start saving ~/.config folder')
-    with tqdm(total=len(Kde.CONFIG_FILES)) as progressBar:
-        for i in Kde.CONFIG_FILES:  
-            copy(join(Kde.CONFIG_DIR, i), join('kde/.config', i))
-            sleep(0.01)
-            progressBar.update(1)
+    backupCategory(Kde.CONFIG_DIR, join('kde', '.config'), Kde.CONFIG_FILES)
             
     print('start saving home (~/) folder')
-    with tqdm(total=len(Kde.HOME_FILES)) as progressBar:
-        for i in Kde.HOME_FILES:
-            copy(join(Kde.HOME_DIR, i), join("kde/home", i))
-            sleep(0.01)
-            progressBar.update(1)
+    backupCategory(Kde.HOME_DIR, join('kde', 'home'), Kde.HOME_FILES)
     
     print('start saving /usr/share folder')
-    with tqdm(total=len(Kde.USR_SHARE_FILE)) as progressBar:
-        for i in Kde.USR_SHARE_FILE:
-            copy(join(Kde.USR_SHARE_DIR, i), join("kde/" + Kde.USR_SHARE_DIR, i))
-            sleep(0.01)
-            progressBar.update(1)
+    backupCategory(Kde.USR_SHARE_DIR, f'kde/{Kde.USR_SHARE_DIR}', Kde.USR_SHARE_FILE)
             
     print('start saving ~/Immagini folder')
-    with tqdm(total=len(Kde.IMG_FILE)) as progressBar:
-        for i in Kde.IMG_FILE:
-            copy(join(Kde.IMG_DIR, i), join("kde/Immagini", i))
-            sleep(0.01)
-            progressBar.update(1)
+    backupCategory(Kde.IMG_DIR, join('kde', 'Immagini'), Kde.IMG_FILE)
             
     print('start saving ~/.local/share folder')
-    with tqdm(total=len(Kde.LOCAL_SHARE_FILE)) as progressBar:
-        for i in Kde.LOCAL_SHARE_FILE:
-            copy(join(Kde.LOCAL_SHARE_DIR, i), join("kde", '.local', 'share', i))
-            sleep(0.01)
-            progressBar.update(1)
+    backupCategory(Kde.LOCAL_SHARE_DIR, join('kde', '.local', 'share'), Kde.LOCAL_SHARE_FILE)
+    
+    print('\n\n.dotfile saved')
     
             
 #TODO implementare backup hyprland
@@ -89,12 +81,18 @@ def hyprland():
 ##########################
     
 choise = int(input('do you want to update KDE config or hyprland config?\n[1] KDE plasma\n[2] HyprlandWM\n'))
-os.system('clear')
+system('clear')
 if choise == 1:
     kde()
+    #repo.index.add('.')
+    print("file are added to repository")
+    #repo.index.commit('update KDE .dotfile')
+    print("commit effettuated")
 elif choise == 2:
     hyprland()
 else:
     print('unhandled input')
-    sys.exit(1)
-    
+    exit(1)
+
+#origin.push()
+print("local repository pushed on github")
