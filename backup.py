@@ -13,6 +13,7 @@ class System:
     CONFIG_DIR = join(HOME_DIR, '.config')
     USR_SHARE_DIR = '/usr/share'
     IMG_DIR = join(HOME_DIR, 'Immagini')
+    LOCAL_SHARE_DIR = join(HOME_DIR, '.local', 'share')
     
 class Kde(System):
     CONFIG_FILES = ['albafetch/', 'autostart/', 'btop/', 'dolphinrc', 'fish/', 'flameshot/', 'flameshotrc', 'fontconfig/', 'kdedefaults/', 
@@ -25,6 +26,7 @@ class Kde(System):
     
     IMG_FILE = ['desktop.png', 'bg konsole.png', 'opera.jpg', 'icon/']
     
+    LOCAL_SHARE_FILE = ['applications/', 'icons/', 'konsole/', 'plasma_icons/', 'uptime-record']
 
 ##########################
 #        FUNCTIONS       #
@@ -32,43 +34,48 @@ class Kde(System):
 
 def copy(src, dst):
     if isdir(src):
-        copytree(src, dst)
+        copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
     else:
         makedirs(dirname(dst), exist_ok=True)
         copy2(src, dst)
 
-
 def kde():
-    kde = Kde()
     
     rmtree('kde/', ignore_errors=True)
     makedirs('kde', exist_ok=True)
     
     print('start saving ~/.config folder')
-    with tqdm(total=len(kde.CONFIG_FILES)) as progressBar:
-        for i in kde.CONFIG_FILES:  
-            copy(join(kde.CONFIG_DIR, i), join('kde/.config', i))
+    with tqdm(total=len(Kde.CONFIG_FILES)) as progressBar:
+        for i in Kde.CONFIG_FILES:  
+            copy(join(Kde.CONFIG_DIR, i), join('kde/.config', i))
             sleep(0.01)
             progressBar.update(1)
             
     print('start saving home (~/) folder')
-    with tqdm(total=len(kde.HOME_FILES)) as progressBar:
-        for i in kde.HOME_FILES:
-            copy(join(kde.HOME_DIR, i), join("kde/home", i))
+    with tqdm(total=len(Kde.HOME_FILES)) as progressBar:
+        for i in Kde.HOME_FILES:
+            copy(join(Kde.HOME_DIR, i), join("kde/home", i))
             sleep(0.01)
             progressBar.update(1)
     
     print('start saving /usr/share folder')
-    with tqdm(total=len(kde.USR_SHARE_FILE)) as progressBar:
-        for i in kde.USR_SHARE_FILE:
-            copy(join(kde.USR_SHARE_DIR, i), join("kde/" + kde.USR_SHARE_DIR, i))
+    with tqdm(total=len(Kde.USR_SHARE_FILE)) as progressBar:
+        for i in Kde.USR_SHARE_FILE:
+            copy(join(Kde.USR_SHARE_DIR, i), join("kde/" + Kde.USR_SHARE_DIR, i))
             sleep(0.01)
             progressBar.update(1)
             
     print('start saving ~/Immagini folder')
-    with tqdm(total=len(kde.IMG_FILE)) as progressBar:
-        for i in kde.IMG_FILE:
-            copy(join(kde.IMG_DIR, i), join("kde/Immagini", i))
+    with tqdm(total=len(Kde.IMG_FILE)) as progressBar:
+        for i in Kde.IMG_FILE:
+            copy(join(Kde.IMG_DIR, i), join("kde/Immagini", i))
+            sleep(0.01)
+            progressBar.update(1)
+            
+    print('start saving ~/.local/share folder')
+    with tqdm(total=len(Kde.LOCAL_SHARE_FILE)) as progressBar:
+        for i in Kde.LOCAL_SHARE_FILE:
+            copy(join(Kde.LOCAL_SHARE_DIR, i), join("kde", '.local', 'share', i))
             sleep(0.01)
             progressBar.update(1)
     
