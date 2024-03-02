@@ -1,3 +1,5 @@
+<h1 align="center">MY KDE SETUP</h1>
+
 Desktop                    |  Dock
 :-------------------------:|:-------------------------:
 ![](assets/Screenshot/kde/Desktop.png)  |  ![](assets/Screenshot/kde/Dock.png)
