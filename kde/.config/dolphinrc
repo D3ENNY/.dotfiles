@@ -1,0 +1,76 @@
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAB9fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAxAAAB9QAAAFQA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAIA////AAACPwAAAfUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[ContextMenu]
+ShowCopyMoveMenu=true
+
+[DetailsMode]
+PreviewSize=112
+
+[ExtractDialog]
+1920x1080 screen: Height=558
+1920x1080 screen: Width=1280
+DirHistory[$e]=$HOME/Scaricati/Nuova cartella/,$HOME/Scaricati/,/opt/lampp/htdocs/progetti/
+
+[General]
+BrowseThroughArchives=true
+GlobalViewProps=false
+ShowFullPath=true
+ShowToolTips=true
+SortingChoice=CaseInsensitiveSorting
+Version=202
+ViewPropsTimestamp=2021,9,20,13,44,23.148
+
+[IconsMode]
+PreviewSize=240
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+Recent Files[$e]=file:$HOME,file:$HOME/Scaricati/Nuova cartella
+Recent URLs[$e]=file:///opt/lampp/htdocs/progetti/,file:$HOME/Scaricati/,file:$HOME/Scaricati/Nuova cartella/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=648
+1920x1080 screen: Width=638
+eDP-1 Height 1920x1080=618
+eDP-1 Height 1920x1080 eDP-1=648
+eDP-1 Width 1920x1080=610
+eDP-1 Width 1920x1080 eDP-1=610
+
+[MainWindow]
+DP-1 eDP-1 Window-Maximized 1920x1080=true
+MenuBar=Disabled
+RestorePositionForNextInstance=false
+ToolBarsMovable=Disabled
+eDP-1 DP-1 Height 1920x1080=1002
+eDP-1 DP-1 Width 1920x1080=952
+eDP-1 DP-1 XPosition 1920x1080=891
+eDP-1 DP-1 YPosition 1920x1080=74
+eDP-1 Height 1920x1080=657
+eDP-1 Width 1920x1080=1272
+eDP-1 XPosition 1920x1080=207
+eDP-1 YPosition 1920x1080=258
+
+[Notification Messages]
+ConfirmTrash=true
+
+[Open-with settings]
+CompletionMode=1
+History=kate,opera,code,op,sce,co,OPERA,visu,oku,gn
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Search]
+What=Content
+
+[VersionControl]
+enabledPlugins=Git,Subversion
+
+[kuick-copy]
+Paths[$e]=/mnt/
