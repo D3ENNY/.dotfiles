@@ -5,6 +5,7 @@ from os.path import expanduser, join, isdir, dirname
 from sys import exit
 from tqdm import tqdm
 from git import Repo
+from glob import glob
 
 ##########################
 #        VARIABLES       #
@@ -48,6 +49,14 @@ def backupCategory(src, dst, files):
             copy(join(src, i), join(dst, i))
             sleep(0.01)
             progressBar.update(1)
+            
+def commit(src, msg):
+    for i in glob(join(src, '.*')) + glob(join(src, '*')):
+        repo.index.add(i)
+        print(f'{i} folder added to local repository')
+        repo.index.commit(msg)
+    print("commits effettuated")
+    
 
 def kde():
     
@@ -84,15 +93,12 @@ choise = int(input('do you want to update KDE config or hyprland config?\n[1] KD
 system('clear')
 if choise == 1:
     kde()
-    repo.index.add('.')
-    print("file are added to repository")
-    repo.index.commit('update KDE .dotfile')
-    print("commit effettuated")
+    commit("kde/", 'update KDE .dotfile')
 elif choise == 2:
     hyprland()
 else:
     print('unhandled input')
     exit(1)
 
-origin.push()
-print("local repository pushed on github")
+# origin.push()
+# print("local repository pushed on github")
