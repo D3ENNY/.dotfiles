@@ -1,6 +1,0 @@
-{:logseq-tokyo-theme {:version nil, :repo "nmartin84/logseq-tokyo-theme", :effect false, :theme true}
- :cobra-theme {:version nil, :repo "santiyounger/Cobra", :effect false, :theme true}
- :logseq-dicord-like-dark-theme {:version nil, :repo "dale502/logseq-discord-like-dark-theme", :effect false, :theme true}
- :logseq-github-theme {:version "v2.0.0", :repo "g1eny0ung/logseq-github-theme", :effect false, :theme true}
- :logseq-dracula-theme {:version "0.0.5", :repo "dracula/logseq", :effect false, :theme true}
- :logseq-pdf-export-plugin {:version "2.2.8", :repo "sawhney17/logseq-pdf-export", :effect true, :theme false}}
