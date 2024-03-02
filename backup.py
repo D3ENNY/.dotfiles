@@ -100,5 +100,5 @@ else:
     print('unhandled input')
     exit(1)
 
-# origin.push()
-# print("local repository pushed on github")
+origin.push()
+print("local repository pushed on github")
