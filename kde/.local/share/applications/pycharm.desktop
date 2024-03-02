@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Development;IDE;Python;
+Comment[en_US]=Python IDE for Professional Developers
+Comment=Python IDE for Professional Developers
+Exec=/usr/bin/pycharm %f
+GenericName[en_US]=
+GenericName=
+Icon=/home/denny/Immagini/icon/PyCharm_Icon.svg
+MimeType=
+Name[en_US]=PyCharm Community Edition
+Name=PyCharm Community Edition
+Path=
+StartupNotify=true
+StartupWMClass=jetbrains-pycharm-ce
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

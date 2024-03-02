@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[it_IT]=BooktabZ book reader
+Comment=BooktabZ book reader
+Exec=booktab
+GenericName[it_IT]=
+GenericName=
+Icon=/usr/share/duDat/BooktabZ/booktab_icon_144x144.png
+Keywords=educational;
+MimeType=
+Name[it_IT]=BooktabZ
+Name=BooktabZ
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=booktab
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

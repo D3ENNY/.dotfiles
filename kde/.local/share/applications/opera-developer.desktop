@@ -1,0 +1,31 @@
+[Desktop Action new-private-window]
+Exec=opera-developer --incognito
+Name=New Private Window
+TargetEnvironment=Unity
+
+[Desktop Action new-window]
+Exec=opera-developer --new-window
+Name=New Window
+TargetEnvironment=Unity
+
+[Desktop Entry]
+Actions=new-window;new-private-window;
+Categories=Network;WebBrowser;
+Comment[it_IT]=Fast and secure web browser
+Comment=Fast and secure web browser
+Exec=opera-developer %U
+GenericName[it_IT]=Web browser
+GenericName=Web browser
+Icon=/home/denny/Immagini/icon/opera_touch_browser_logo_icon_152971.png
+Name[it_IT]=Opera developer
+Name=Opera developer
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=opera-developer
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+MimeType=x-scheme-handler/https;x-scheme-handler/http;text/html;application/xml;application/x-opera-download;
