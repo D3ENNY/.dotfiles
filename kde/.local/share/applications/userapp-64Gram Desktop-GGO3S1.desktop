@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+NoDisplay=true
+Exec=/usr/bin/telegram-desktop -workdir /home/denny/.local/share/64Gram/ -- %u
+Name=64Gram Desktop
+Comment=Definizione personalizzata per 64Gram Desktop
