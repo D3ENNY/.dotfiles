@@ -27,7 +27,7 @@ class Kde(System):
     
     IMG_FILE = ['desktop.png', 'bg konsole.png', 'opera.jpg', 'icon/']
     
-    LOCAL_SHARE_FILE = ['applications/', 'icons/', 'konsole/', 'plasma_icons/', 'uptime-record']
+    LOCAL_SHARE_FILE = ['applications/', 'konsole/', 'plasma_icons/', 'uptime-record']
 
 repo = Repo('./')
 origin = repo.remote('origin')
