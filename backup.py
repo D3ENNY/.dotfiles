@@ -24,7 +24,7 @@ class Kde(System):
     
     HOME_FILES = ['.alias.conf', '.bash_profile', '.bashrc', '.bashrc1', '.logseq/', '.screenlayout/']
     
-    USR_SHARE_FILE = ['defaultbg/XeroLinux.png']
+    USR_SHARE_FILE = ['defaultbg/']
     
     IMG_FILE = ['desktop.png', 'bg konsole.png', 'opera.jpg', 'icon/']
     
