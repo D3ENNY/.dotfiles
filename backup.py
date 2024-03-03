@@ -1,4 +1,4 @@
-from shutil import copy, copytree, copy2, rmtree
+from shutil import copytree, copy2, rmtree
 from time import sleep
 from os import makedirs, mkdir, system
 from os.path import expanduser, join, isdir, dirname
