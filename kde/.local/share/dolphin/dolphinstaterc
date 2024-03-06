@@ -1,0 +1,70 @@
+[CreateDialog]
+LastMimeType=application/vnd.rar
+
+[Open-with settings]
+CompletionMode=1
+History=xo,code,opera,MIN
+
+[SettingsDialog]
+1920x1080 screen: Height=524
+1920x1080 screen: Width=941
+
+[State]
+1920x1080 screen: Height=1010
+1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=70
+2 screens: Height=1010
+2 screens: Width=1920
+2 screens: XPosition=1
+2 screens: YPosition=1150
+DP-1 eDP-1=eDP-1
+DP-1 eDP-1 Height 1920x1080=1010
+DP-1 eDP-1 Height 1920x1080 DP-1=1012
+DP-1 eDP-1 Height 1920x1080 eDP-1=1056
+DP-1 eDP-1 Width 1920x1080=1920
+DP-1 eDP-1 Width 1920x1080 DP-1=1920
+DP-1 eDP-1 Width 1920x1080 eDP-1=1920
+DP-1 eDP-1 Window-Maximized 1280x1024=true
+DP-1 eDP-1 Window-Maximized 1920x1080=true
+DP-1 eDP-1 Window-Maximized 1920x1080 DP-1=true
+DP-1 eDP-1 Window-Maximized 1920x1080 eDP-1=true
+DP-1 eDP-1 XPosition 1280x1024=0
+DP-1 eDP-1 XPosition 1920x1080=0
+DP-1 eDP-1 XPosition 1920x1080 DP-1=1920
+DP-1 eDP-1 XPosition 1920x1080 eDP-1=0
+DP-1 eDP-1 YPosition 1280x1024=0
+DP-1 eDP-1 YPosition 1920x1080=70
+DP-1 eDP-1 YPosition 1920x1080 DP-1=68
+DP-1 eDP-1 YPosition 1920x1080 eDP-1=0
+DP-3 DP-4=DP-4
+DP-4=DP-4
+DP-4 eDP-1=eDP-1
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACAAAADyPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAADyAAAAFUA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAAHgAAAALb8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHgAAAAAIA////AAAG/AAAA8gAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+eDP-1=eDP-1
+eDP-1 DP-1=eDP-1
+eDP-1 DP-1 Height 1280x1024=658
+eDP-1 DP-1 Height 1920x1080=1002
+eDP-1 DP-1 Height 1920x1080 eDP-1=1012
+eDP-1 DP-1 Width 1280x1024=1280
+eDP-1 DP-1 Width 1920x1080=952
+eDP-1 DP-1 Width 1920x1080 eDP-1=1920
+eDP-1 DP-1 Window-Maximized 1920x1080=true
+eDP-1 DP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 DP-1 XPosition 1280x1024=-78
+eDP-1 DP-1 XPosition 1920x1080=891
+eDP-1 DP-1 XPosition 1920x1080 eDP-1=0
+eDP-1 DP-1 YPosition 1280x1024=255
+eDP-1 DP-1 YPosition 1920x1080=74
+eDP-1 DP-1 YPosition 1920x1080 eDP-1=68
+eDP-1 Height 1920x1080=1012
+eDP-1 Height 1920x1080 eDP-1=1056
+eDP-1 Width 1920x1080=1920
+eDP-1 Width 1920x1080 eDP-1=1920
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 XPosition 1920x1080 eDP-1=0
+eDP-1 YPosition 1920x1080=68
+eDP-1 YPosition 1920x1080 eDP-1=24
