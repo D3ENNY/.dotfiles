@@ -46,7 +46,7 @@ def enhanced_copy(src, dst):
 def backupCategory(src, dst, files):
     with tqdm(total=len(files)) as progressBar:
         for i in files:
-            copy(join(src, i), join(dst, i))
+            enhanced_copy(join(src, i), join(dst, i))
             sleep(0.01)
             progressBar.update(1)
             
