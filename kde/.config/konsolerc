@@ -1,0 +1,60 @@
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAS4A////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAAAvgD///8AAAeAAAAD8gAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+eDP-1 Window-Maximized 1920x1080=true
+
+[Desktop Entry]
+DefaultProfile=my profile.profile
+
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+Recent Files[$e]=bg konsole.png,file:$HOME/Immagini/bg konsole.png
+Recent URLs[$e]=file:$HOME/Immagini/,file:$HOME/,file:$HOME/Documenti/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=1002
+1920x1080 screen: Width=652
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=682
+1920x1080 screen: YPosition=773
+2 screens: Height=1002
+2 screens: Width=952
+2 screens: Window-Maximized=true
+2 screens: XPosition=1920
+2 screens: YPosition=70
+DP-1 eDP-1=DP-1
+DP-1 eDP-1 Height 1920x1080 DP-1=486
+DP-1 eDP-1 Height 1920x1080 eDP-1=1048
+DP-1 eDP-1 Width 1920x1080 DP-1=1912
+DP-1 eDP-1 Width 1920x1080 eDP-1=952
+DP-1 eDP-1 Window-Maximized 1920x1080=true
+DP-1 eDP-1 Window-Maximized 1920x1080 DP-1=true
+DP-1 eDP-1 XPosition 1920x1080 eDP-1=1924
+DP-1 eDP-1 YPosition 1920x1080 eDP-1=28
+MenuBar=Disabled
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+eDP-1 DP-1 Height 1920x1080=688
+eDP-1 DP-1 Width 1920x1080=1272
+eDP-1 DP-1 Window-Maximized 1920x1080=true
+eDP-1 DP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 Height 1920x1080=657
+eDP-1 Height 1920x1080 eDP-1=566
+eDP-1 Width 1920x1080=1272
+eDP-1 Width 1920x1080 eDP-1=1007
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1920x1080=333
+eDP-1 XPosition 1920x1080 eDP-1=0
+eDP-1 YPosition 1920x1080=74
+eDP-1 YPosition 1920x1080 eDP-1=68
+
+[TabBar]
+CloseTabOnMiddleMouseButton=true
+NewTabButton=true
+
+[UiSettings]
+ColorScheme=
