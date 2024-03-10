@@ -1,0 +1,10 @@
+src: /home/denny/.config/albafetch/ - dst: kde/.config/albafetch/
+src: /home/denny/.config/autostart/ - dst: kde/.config/autostart/
+src: /home/denny/.config/btop/ - dst: kde/.config/btop/
+src: /home/denny/.config/flameshotrc - dst: kde/.config/flameshotrc
+src: /home/denny/.config/fontconfig/ - dst: kde/.config/fontconfig/
+src: /home/denny/.config/krunnerrc - dst: kde/.config/krunnerrc
+src: /home/denny/.config/kscreenlockerrc - dst: kde/.config/kscreenlockerrc
+src: /home/denny/.config/Kvantum/ - dst: kde/.config/Kvantum/
+src: /home/denny/.config/latte - dst: kde/.config/latte
+src: /home/denny/.config/yakuakerc - dst: kde/.config/yakuakerc
