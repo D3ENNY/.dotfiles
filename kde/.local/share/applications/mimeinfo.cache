@@ -1,0 +1,9 @@
+[MIME Cache]
+application/x-kwallet=org.kde.kwalletmanager5.desktop;
+application/x-opera-download=opera-developer.desktop;opera.desktop;
+application/xml=opera-developer.desktop;opera.desktop;
+inode/directory=org.kde.dolphin.desktop;
+text/html=opera-developer.desktop;opera.desktop;
+text/plain=code-oss.desktop;
+x-scheme-handler/http=opera-developer.desktop;
+x-scheme-handler/https=opera-developer.desktop;

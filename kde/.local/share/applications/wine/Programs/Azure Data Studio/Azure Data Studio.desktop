@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Azure Data Studio
+Exec=env WINEPREFIX="/home/denny/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Azure\\ Data\\ Studio\\\\Azure\\ Data\\ Studio.lnk
+Type=Application
+StartupNotify=true
+Path=/home/denny/.wine/dosdevices/c:/Program Files/Azure Data Studio
+Icon=29FD_azuredatastudio.0
+StartupWMClass=azuredatastudio.exe

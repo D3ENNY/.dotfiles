@@ -1,0 +1,5 @@
+[Dolphin]
+SortRole=path
+Timestamp=2022,9,23,12,28,8.471
+Version=4
+VisibleRoles=Details_text,Details_path,Details_deletiontime,CustomizedDetails
