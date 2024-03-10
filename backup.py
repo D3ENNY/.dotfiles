@@ -37,11 +37,16 @@ origin = repo.remote('origin')
 ##########################
 
 def enhanced_copy(src, dst):
-    if isdir(src):
-        copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
-    else:
-        makedirs(dirname(dst), exist_ok=True)
-        copy2(src, dst)
+    try:
+        if isdir(src):
+            copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
+        else:
+            makedirs(dirname(dst), exist_ok=True)
+            copy2(src, dst)
+    except (FileNotFoundError, FileExistsError):
+        with open(join("kde", "log.txt"), 'a+') as log:
+            log.write(f'src: {src} - dst: {dst}\n')
+        
         
 def backupCategory(src, dst, files):
     with tqdm(total=len(files)) as progressBar:
