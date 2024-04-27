@@ -34,17 +34,23 @@ configs = {
 #        FUNCTIONS       #
 ##########################
 
-def enhanced_copy(src, dst):
-    if isdir(src):
-        copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
-    else:
-        makedirs(dirname(dst), exist_ok=True)
-        copy2(src, dst)
+def enhanced_copy(src, dst, key):
+    try:
+        if isdir(src):
+            copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
+        else:
+            makedirs(dirname(dst), exist_ok=True)
+            copy2(src, dst)
+    except (FileNotFoundError, FileExistsError):
+        with open(join(key, "log.txt"), 'a+') as log:
+            log.write(f'src: {src} - dst: {dst}\n')
 
 def apply_config(key):
     config = configs.get(key)
     if config:
         config['msg']
+        for i in config['path']:
+            enhanced_copy(i['from'], i['to'], key)
         
     else:
         print("one error was occured while keying ")
