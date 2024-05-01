@@ -23,8 +23,10 @@ origin = repo.remote('origin')
 def enhanced_copy(src, dst, key):
     try:
         if isdir(src):
+            print(src,'--1--', dst)
             copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
         else:
+            print(src,'--2--', dst)
             makedirs(dirname(dst), exist_ok=True)
             copy2(src, dst)
     except (FileNotFoundError, FileExistsError) as err:
@@ -52,10 +54,10 @@ def apply_config(key):
             
             with tqdm(total=len(paths[path])) as progressBar:
                 for file in paths[path]:
-                    enhanced_copy(f"{path}/{file}", f"{key}/{path[1:]}", key)
+                    enhanced_copy(f"{path}/{file}", f"./{key}/{path[1:]}/", key)
                     sleep(0.01)
                     progressBar.update(1)
-        commit(key, f"update {key} .dotfile")
+        # commit(key, f"update {key} .dotfile")
     
     
 ##########################
@@ -72,5 +74,5 @@ else:
     print('unhandled input')
     exit(1)
 
-origin.push()
-print("local repository pushed on github")
+# origin.push()
+# print("local repository pushed on github")

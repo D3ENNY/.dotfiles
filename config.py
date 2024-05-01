@@ -94,7 +94,7 @@ configs = {
                 "uptime-record"
             ],
             System.IMG_DIR : [
-                "wallpaper"
+                "wallpaper/"
             ]
         },
         "msg" : lambda : print("saving Hyprland's config")
