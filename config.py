@@ -91,7 +91,7 @@ configs = {
                 ".bashrc"
             ],
             System.LOCAL_SHARE_DIR : [
-                "sddm/"
+                "uptime-record"
             ],
             System.IMG_DIR : [
                 "wallpaper"
