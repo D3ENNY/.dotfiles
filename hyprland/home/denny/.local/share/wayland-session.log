@@ -1,0 +1,578 @@
+Environment variable $QT_QPA_PLATFORMTHEME not set, ignoring.
+Environment variable $QT_QPA_PLATFORMTHEME not set, ignoring.
+waybar: nessun processo trovato
+sh: /home/denny/.config/scripts/restartPipewireDesktopPortals.sh: File o directory non esistente
+/bin/sh: riga 1: killactive: comando non trovato
+WARNING: Invalid color string: '##8e44ad'
+WARNING: Could not find theme ePapirus-Dark
+
+(waybar:901): Gtk-WARNING **: 15:42:38.228: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class
+errore: impossibile sincronizzare tutti i database (impossibile bloccare il database)
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+
+(process:1035): GLib-CRITICAL **: 15:45:51.801: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+QPainter::begin: Paint device returned engine == 0, type: 2
+QWidget::render: Cannot render with an inactive painter
+qt.core.qobject.connect: QObject::connect: No such signal QPlatformNativeInterface::systemTrayWindowChanged(QScreen*)
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+
+(process:1182): GLib-CRITICAL **: 15:45:58.125: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+[122 15:46:02.845203] Ignoring invalid config line: ':# vim:fileencoding=utf-8:ft=conf:foldmethod=marker'
+[122 15:46:02.845503] Ignoring unknown config key: open_url_modifiers
+[122 15:46:02.845545] Ignoring unknown config key: rectangle_select_modifiers
+[122 15:46:02.845556] Ignoring unknown config key: terminal_select_modifiers
+[122 15:46:02.845689] Ignoring unknown config key: resize_draw_strategy
+[122 15:46:02.931796] The output buffer does not support sRGB color encoding, colors will be incorrect.
+[122 15:46:02.944806] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] Interfaccia «org.freedesktop.portal.Settings» inesistente sull'oggetto nel percorso /org/freedesktop/portal/desktop
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+[libvpx-vp9 @ 0x784205ec9000] v1.14.0
+[libvpx-vp9 @ 0x784205ec9000] v1.14.0
+[libvpx-vp9 @ 0x7841d2236800] v1.14.0
+[libvpx-vp9 @ 0x7841d2236800] v1.14.0
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+
+(process:3333): GLib-CRITICAL **: 15:51:15.794: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+[3356, Main Thread] WARNING: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.2/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:3356): Gtk-WARNING **: 15:51:15.875: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class
+[Parent 3356, Main Thread] WARNING: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.2/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:3356): Gtk-WARNING **: 15:51:16.061: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class
+[Parent 3356, Main Thread] WARNING: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.2/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:3356): Gtk-WARNING **: 15:51:16.103: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class
+[Parent 3356, Main Thread] WARNING: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.2/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:3356): Gtk-WARNING **: 15:51:16.143: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class
+[Parent 3356, Main Thread] WARNING: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.2/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:3356): Gtk-WARNING **: 15:51:16.187: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class
+[Parent 3356, Main Thread] WARNING: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.2/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:3356): Gtk-WARNING **: 15:51:16.226: Theme parsing error: gtk.css:6703:68: Invalid name of pseudo-class
+[default] Path override failed for key base::DIR_APP_DICTIONARIES and path '/usr/bin/qtwebengine_dictionaries'
+Path override failed for key base::DIR_APP_DICTIONARIES and path '/usr/lib/qt6/qtwebengine_dictionaries'
+Path override failed for key base::DIR_APP_DICTIONARIES and path '/usr/lib/qt6/qtwebengine_dictionaries'
+[default] Couldn't start kglobalaccel from org.kde.kglobalaccel.service: QDBusError("org.freedesktop.DBus.Error.ServiceUnknown", "The name is not activatable")
+[default] QLayout: Attempting to add QLayout "" to StreamDialog "", which already has a layout
+[default] QLayout: Attempting to add QLayout "" to StreamDialog "", which already has a layout
+[main] Injecting  "qwebchannel.js"
+[main] Injecting  "userscript.js"
+[main] Injecting  "style.css"
+[main] Injecting  "vencord.css"
+[userstyles] Looking for userstyles in /home/denny/.config/discord-screenaudio
+[main] NodeJS found, starting arRPC located at /tmp/discord-screenaudio.cruziZ
+[main] Injecting  "arrpc_bridge_mod.js"
+[discord] Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+[discord] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[discord] [FAST CONNECT] wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream, encoding: json, version: 9
+[userscript] Loading userstyles...
+[userscript] Finished loading userstyles
+[discord] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[discord] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[discord] [FAST CONNECT] connected in 195ms
+[discord] [1m[38;5;127m[ProcessUtilsElectron][0m setMemoryInformation not available.
+[discord] [1m[38;5;127m[DatabaseManager][0m active user changed (now: 507936868961353770, was: null, was: undefined)
+[discord] [1m[38;5;127m[default][0m [BUILD INFO] Release Channel: stable, Build Number: 289379, Version Hash: 317f5c15595edc52af09a3ed17e2456e462af7a5
+[discord] AppCrashedFatalReport: getLastCrash not supported.
+Path override failed for key base::DIR_APP_DICTIONARIES and path '/usr/lib/qt6/qtwebengine_dictionaries'
+Path override failed for key base::DIR_APP_DICTIONARIES and path '/usr/lib/qt6/qtwebengine_dictionaries'
+[userscript] Cannot locate Mute/Deafen/Settings button container
+[discord] Uncaught (in promise) Error: Cannot find module './notosans-400-normalitalic.woff2'
+[discord] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[discord] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[discord] [DEPRECATED] Please use `subscribeWithSelector` middleware
+[discord] [1m[38;5;127m[ConnectionStore][0m Socket is reconnecting because of starting new session
+[discord] [1m[38;5;127m[GatewaySocket][0m .connect() called, new state is WILL_RECONNECT
+[discord] [1m[38;5;127m[GatewaySocket][0m Setting connection state to WILL_RECONNECT
+[discord] [1m[38;5;127m[GatewaySocket][0m Setting connection state to CONNECTING
+[discord] [1m[38;5;127m[GatewaySocket][0m [CONNECT] wss://gateway.discord.gg, encoding: json, version: 9, compression: zlib-stream
+[discord] [1m[38;5;127m[GatewaySocket][0m [FAST CONNECT] successfully took over websocket, state: [object Object]
+[discord] [1m[38;5;127m[GatewaySocket][0m [CONNECTED] wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream in 0 ms
+[discord] [1m[38;5;127m[ConnectionStore][0m handleIdentify called [object Object]
+[discord] [1m[38;5;127m[GatewaySocket][0m Setting connection state to IDENTIFYING
+[discord] [1m[38;5;127m[GatewaySocket][0m [HELLO] via
+[discord] gateway-prd-us-east1-c-nw8r: 0, heartbeat interval: 41250, took 3 ms
+[discord] [1m[38;5;127m[GatewaySocket][0m [IDENTIFY]
+[userscript] Cannot locate Mute/Deafen/Settings button container
+[userscript] Cannot locate Mute/Deafen/Settings button container
+[userscript] Cannot locate Mute/Deafen/Settings button container
+[discord] [1m[38;5;127m[GatewaySocket][0m [READY] took 913ms, as 13546ef254072281853b5b4e0b6d6252
+[discord] [1m[38;5;127m[GatewaySocket][0m 
+[discord] gateway-prd-us-east1-c-nw8r: 517.096
+[discord] |  id_created: 1.459
+[discord] |  session_lookup_time: 0.383
+[discord] |  session_lookup_finished: 0.019
+[discord] |  discord-sessions-prd-1-280: 508.467
+[discord] |  |  start_session: 214.815
+[discord] |  |  |  discord-api-rpc-98b797575-slj75: 197.118
+[discord] |  |  |  |  get_user: 61.601
+[discord] |  |  |  |  get_guilds: 43.47
+[discord] |  |  |  |  user_settings_proto: 0.155
+[discord] |  |  |  |  relationships: 34.072
+[discord] |  |  |  |  friend_suggestion: 0.068
+[discord] |  |  |  |  connections: 0.279
+[discord] |  |  |  |  serialized_read_states: 0.005
+[discord] |  |  |  |  pending_payments: 0.002
+[discord] |  |  |  |  send_scheduled_deletion_message: 0.001
+[discord] |  |  |  |  sanitize_premium_perks: 0.001
+[discord] |  |  |  |  guild_join_requests: 0.001
+[discord] |  |  |  |  broadcaster_user_ids: 0.001
+[discord] |  |  |  |  user_guild_settings: 1.922
+[discord] |  |  |  |  serialized_private_channels: 0.003
+[discord] |  |  |  |  user_segments: 0.001
+[discord] |  |  |  |  game_invites: 0.002
+[discord] |  |  |  |  affine_user_ids: 10.878
+[discord] |  |  |  |  experiments: 36.701
+[discord] |  |  |  |  required_action: 0.014
+[discord] |  |  |  |  authorized_ip_coro: 0.002
+[discord] |  |  starting_guild_connect: 0.136
+[discord] |  |  presence_started: 20.291
+[discord] |  |  guilds_started: 1.531
+[discord] |  |  guilds_connect: 262.554
+[discord] |  |  presence_connect: 0.004
+[discord] |  |  connect_finished: 263.065
+[discord] |  |  build_ready: 5.067
+[discord] |  |  clean_ready: 0.002
+[discord] |  |  optimize_ready: 3.47
+[discord] |  |  split_ready: 0.085
+[discord] [1m[38;5;127m[GatewaySocket][0m Setting connection state to SESSION_ESTABLISHED
+[discord] [1m[38;5;127m[GatewaySocket][0m Updating resume url to wss://gateway-us-east1-c.discord.gg
+[discord] [1m[38;5;127m[Flux][0m Dispatching CONNECTION_OPEN
+[discord] [1m[38;5;127m[AuthenticationStore][0m handleConnectionOpen called [object Object]
+[discord] [1m[38;5;127m[DatabaseManager][0m removing database (user: 507936868961353770, database: undefined)
+[discord] [1m[38;5;127m[DatabaseManager][0m added database (507936868961353770 → null)
+[discord] [1m[38;5;127m[Spotify][0m WS Connecting
+[discord] [1m[38;5;127m[Spotify][0m Added account: hliwjp9jzgm4r25ho80vdnmin
+[discord] [1m[38;5;127m[GatewayZstdStore][0m Attempting to enable zstd but it is not supported
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 778618111485542410 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[GatewaySocket][0m Dispatched 1 messages in 103ms
+[discord] [1m[38;5;127m[OverlayBridgeStore][0m updateIntendedOverlayPIDs [object Object]
+[discord] [1m[38;5;127m[OverlayBridgeStore][0m updateIntendedOverlayPIDs: Removing all. [object Object] [object Object]
+[discord] [1m[38;5;127m[GatewaySocket][0m [READY_SUPPLEMENTAL] took 1034ms
+[discord] [1m[38;5;127m[GatewaySocket][0m Setting connection state to SESSION_ESTABLISHED
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 0 messages for 778618111485542410 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=778618111485542410, sending.length=0
+[discord] [1m[38;5;127m[Spotify][0m Updated account access token: hliwjp9jzgm4r25ho80vdnmin
+[discord] [1m[38;5;127m[Spotify][0m WS Connected
+[discord] [1m[38;5;127m[Spotify][0m Devices updated for hliwjp9jzgm4r25ho80vdnmin: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[discord] [1m[38;5;127m[Spotify][0m Profile updated for hliwjp9jzgm4r25ho80vdnmin: isPremium = false
+[discord] [1m[38;5;127m[Spotify][0m Updated account access token: hliwjp9jzgm4r25ho80vdnmin
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.svg: Error while inflating gzip file: SVG format check failed
+qt.svg: Error while inflating gzip file: SVG format check failed
+[libvpx-vp9 @ 0x7841beeea400] v1.14.0
+[libvpx-vp9 @ 0x7841beeea400] v1.14.0
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+[libvpx-vp9 @ 0x7841d1609000] v1.14.0
+[libvpx-vp9 @ 0x7841d1609000] v1.14.0
+[libvpx-vp9 @ 0x7841d2203000] v1.14.0
+[libvpx-vp9 @ 0x7841d2203000] v1.14.0
+[discord] [1m[38;5;127m[FetchBlockedDomain][0m Fetching blocked domain list
+[discord] [1m[38;5;127m[FetchBlockedDomain][0m Server revision: 405, Client revision: 369
+[discord] [1m[38;5;127m[FetchBlockedDomain][0m Unable to process domain list delta: Client revision number is more than 15 behind the server revision number
+[discord] [1m[38;5;127m[FetchBlockedDomain][0m Downloading the full bad domains file
+[discord] [1m[38;5;127m[FetchBlockedDomain][0m Blocked domains list length: 34850 after update
+qt.svg: Error while inflating gzip file: SVG format check failed
+[libvpx-vp9 @ 0x7841d9290c00] v1.14.0
+[libvpx-vp9 @ 0x7841d9290c00] v1.14.0
+[libvpx-vp9 @ 0x7841eee13800] v1.14.0
+[libvpx-vp9 @ 0x7841eee13800] v1.14.0
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.FrecencyUserSettings][0m Loading proto
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Updating localization with delay 0
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Scheduling save from markDirty
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Persisting proto
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/961696649133031444
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 961696649133031444 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 961696649133031444 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=961696649133031444, sending.length=0
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 986186216166789160 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/986186216166789160
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 986186216166789160 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=986186216166789160, sending.length=0
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 1014116973363339264 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/1014116973363339264
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 1014116973363339264 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=1014116973363339264, sending.length=0
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/1014116973363339264
+[discord] [1m[38;5;127m[MessageQueue][0m Queueing message to be sent LogId:6719
+[discord] [1m[38;5;127m[MessageQueue][0m Draining message from queue LogId:6719 QueueLength: 0
+[discord] [1m[38;5;127m[MessageQueue][0m Draining Message Queue with:  0
+[discord] [1m[38;5;127m[MessageQueue][0m Finished draining message from queue LogId:6719 QueueLength: 0
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 961694033942564915 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/961694033942564915
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 961694033942564915 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=961694033942564915, sending.length=0
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (6 subscriptions)
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (7 subscriptions)
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (8 subscriptions)
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (9 subscriptions)
+[discord] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+[discord] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+[discord] https://github.com/highlightjs/highlight.js/issues/2277
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Updating userContent with delay 0
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Scheduling save from markDirty
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Persisting proto
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 963878662623596575 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/963878662623596575
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 963878662623596575 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=963878662623596575, sending.length=0
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 1018239944239620157 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/1018239944239620157
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 1018239944239620157 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=1018239944239620157, sending.length=0
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 1033114514494865480 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/1033114514494865480
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 1033114514494865480 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=1033114514494865480, sending.length=0
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 1148370744997335221 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/1144905326542475314/1148370744997335221
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 5 messages for 1148370744997335221 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=1148370744997335221, sending.length=0
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/1144905326542475314/1148370744997335221
+[discord] ResizeObserver loop completed with undelivered notifications.
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 717135159203332126 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 717135159203332126 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=717135159203332126, sending.length=0
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 815115261735993374 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 1 messages for 815115261735993374 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=815115261735993374, sending.length=0
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/669899820592267273/815115261735993374
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 767843258528825426 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/767843258016596059/767843258528825426
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 767843258528825426 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=767843258528825426, sending.length=0
+[discord] ResizeObserver loop completed with undelivered notifications.
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/1033114514494865480
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Updating userContent with delay 0
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Scheduling save from markDirty
+[discord] [1m[38;5;127m[discord_protos.discord_users.v1.PreloadedUserSettings][0m Persisting proto
+[discord] ResizeObserver loop completed with undelivered notifications.
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetching messages for 961694014615208048 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/961694014615208048
+[discord] ResizeObserver loop completed with undelivered notifications.
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/961694033942564915
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (6 subscriptions)
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (7 subscriptions)
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (8 subscriptions)
+[discord] [1m[38;5;127m[GuildMemberSubscriptions][0m GuildMemberSubscriptions.subscribe(...): Potential reference leak! (9 subscriptions)
+[discord] [1m[38;5;127m[MessageActionCreators][0m Fetched 50 messages for 961694014615208048 isBefore:false isAfter:false
+[discord] [1m[38;5;127m[ChannelMessages][0m loadComplete: resetting state for channelId=961694014615208048, sending.length=0
+[discord] [1m[38;5;127m[Routing/Utils][0m transitionTo - Transitioning to /channels/961691461554950145/1014116973363339264
+[discord] [1m[38;5;127m[GatewaySocket][0m Dispatched 1 messages in 103ms
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+errore: impossibile sincronizzare tutti i database (impossibile bloccare il database)
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+[discord] [1m[38;5;127m[GatewaySocket][0m Dispatched 1 messages in 102ms
+[discord] [1m[38;5;127m[Spotify][0m Devices updated for hliwjp9jzgm4r25ho80vdnmin: [object Object],[object Object],[object Object],[object Object]
+[discord] [1m[38;5;127m[Spotify][0m Devices updated for hliwjp9jzgm4r25ho80vdnmin: [object Object],[object Object],[object Object],[object Object]
