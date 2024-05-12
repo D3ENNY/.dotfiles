@@ -48,7 +48,7 @@ def apply_config(key):
                     enhanced_copy(f"{path}/{file}", f"{key}/{path[1:]}/{file}", key)
                     sleep(0.01)
                     progressBar.update(1)
-        commit(key, f"update {key} .dotfile")
+            commit(key, f"update {path} folder in {key} dotfile")
 
 def commit(src, msg):
     for i in glob(join(src, '.*')) + glob(join(src, '*')):
