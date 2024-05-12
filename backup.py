@@ -21,24 +21,16 @@ origin = repo.remote('origin')
 ##########################
 
 def enhanced_copy(src, dst, key):
+    print(f"src: {src}\ndst: {dst}\n")
     try:
         if isdir(src):
-            print(src,'--1--', dst)
             copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
         else:
-            print(src,'--2--', dst)
             makedirs(dirname(dst), exist_ok=True)
             copy2(src, dst)
     except (FileNotFoundError, FileExistsError) as err:
         with open(f"{key}/log.txt", 'a+') as log:
             log.write(f'src: {src} - dst: {dst}\n{err}\n\n')
-            
-def commit(src, msg):
-    for i in glob(join(src, '.*')) + glob(join(src, '*')):
-        repo.index.add(i)
-        print(f'{i} folder added to local repository')
-        repo.index.commit(msg)
-    print("commits mades")
     
 def apply_config(key):
     config = configFile.configs.get(key)
@@ -54,10 +46,17 @@ def apply_config(key):
             
             with tqdm(total=len(paths[path])) as progressBar:
                 for file in paths[path]:
-                    enhanced_copy(f"{path}/{file}", f"./{key}/{path[1:]}/", key)
+                    enhanced_copy(f"{path}/{file}", f"{key}/{path[1:]}/{file}", key)
                     sleep(0.01)
                     progressBar.update(1)
-        # commit(key, f"update {key} .dotfile")
+        commit(key, f"update {key} .dotfile")
+
+def commit(src, msg):
+    for i in glob(join(src, '.*')) + glob(join(src, '*')):
+        repo.index.add(i)
+        print(f'{i} folder added to local repository')
+        repo.index.commit(msg)
+    print("commits mades")
     
     
 ##########################
@@ -74,5 +73,5 @@ else:
     print('unhandled input')
     exit(1)
 
-# origin.push()
-# print("local repository pushed on github")
+origin.push()
+print("local repository pushed on github")
