@@ -21,7 +21,6 @@ origin = repo.remote('origin')
 ##########################
 
 def enhanced_copy(src, dst, key):
-    print(f"src: {src}\ndst: {dst}\n")
     try:
         if isdir(src):
             copytree(src, dst, symlinks=True, ignore=None, copy_function=copy2, ignore_dangling_symlinks=False, dirs_exist_ok=False)
