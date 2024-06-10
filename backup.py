@@ -51,10 +51,13 @@ def apply_config(key):
             commit(key, f"update {path} folder in {key} dotfile")
 
 def commit(src, msg):
-    for i in glob(join(src, '.*')) + glob(join(src, '*')):
-        repo.index.add(i)
-        print(f'{i} folder added to local repository')
-        repo.index.commit(msg)
+    print("\nstart commit\n")
+    with tqdm(total=len(glob(join(src, '.*')) + glob(join(src, '*')))) as progressBar:
+        for i in glob(join(src, '.*')) + glob(join(src, '*')):
+            repo.index.add(i)
+            progressBar.update(1)   
+            print(f'{i} folder added to local repository')
+            repo.index.commit(msg)
     print("commits mades")
     
     
