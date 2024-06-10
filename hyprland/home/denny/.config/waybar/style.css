@@ -1,0 +1,258 @@
+/*
+ *
+ * __        ___ __   ______    _    ____    ____ _______   ___     _____ 
+ * \ \      / / \\ \ / / __ )  / \  |  _ \  / ___|_   _\ \ / / |   | ____|
+ *  \ \ /\ / / _ \\ V /|  _ \ / _ \ | |_) | \___ \ | |  \ V /| |   |  _|  
+ *   \ V  V / ___ \| | | |_) / ___ \|  _ <   ___) || |   | | | |___| |___ 
+ *    \_/\_/_/   \_\_| |____/_/   \_\_| \_\ |____/ |_|   |_| |_____|_____|
+ *
+*/
+
+/* ############################################ */
+/*                    Variables                 */
+/* ############################################ */
+
+@define-color light-blue #c0caf5;
+@define-color text #9aa5ce;
+@define-color bg #414868;
+@define-color acqua #8DBA5C;
+@define-color yellow #8f5e15;
+@define-color red #E66980;
+
+/* ############################################ */
+/*                     General                  */
+/* ############################################ */
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    color: @--light-blue;
+    font-size: 18px;
+}
+
+window#waybar {
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* ############################################ */
+/*                  Workspaces                  */
+/* ############################################ */
+
+#workspaces {
+    background : @bg;
+    border: 2px solid @light-blue;
+    opacity: 0.7;
+    border-radius: 1.6rem;
+    padding: 4px;
+    margin: 2px 1px 3px 1px;
+    font-weight : normal;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#workspaces button {
+    background-color: @light-blue;
+    color: @text;
+    padding: 0px 10px;
+    margin: 2px 3px;
+    border-radius: 1.6rem;
+    border: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    background-color: #7aa2f7;
+    border-radius: 1.6rem;
+    padding: 0px 20px;
+}
+
+#workspaces button.active:hover{
+    background-color: #7a9ae2;
+    background-size: 400% 400%;
+    min-width: 23px;
+}
+
+#workspaces button:hover{
+    background-color: #a7b0d6;
+    background-size : 400% 400%;
+    min-width: 20px;
+}
+
+/* ############################################ */
+/*                   Tooltips                   */
+/* ############################################ */
+
+tooltip {
+    border-radius: 1.6rem;
+    background-color : @bg;
+    padding: 25px;
+    opacity: 0.8;
+    margin: 0px;
+}   
+
+
+tooltip label {
+    color: @light-blue;
+}
+
+/* ############################################ */
+/*                    Window                    */
+/* ############################################ */
+
+#window {
+    background : @bg;
+    margin-left: 15px; 
+    padding: 2px 1px 3px 1px;
+    border-radius : 1.6rem;
+    border: 2px solid @light-blue;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.7;
+
+}
+
+window#waybar.empty #window {
+    background: transparent;
+    border: none;
+}
+
+/* ############################################ */
+/*                   Taskbar                    */
+/* ############################################ */
+
+#taskbar {
+    background : @bg;
+    margin-left: 15px;
+    padding: 2px 1px 3px 1px;
+    border-radius : 1.6rem;
+    border: 2px solid @light-blue;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.7;
+}
+
+#taskbar button {
+    margin: 0;
+    padding: 0px 7px;
+}
+
+#taskbar.empty{
+    background: transparent;
+    border: none;
+}
+
+/* ############################################ */
+/*               Custom Quicklinks              */
+/* ############################################ */
+
+#custom-powermenu {
+    background: transparent;
+    font-weight: bold;
+    opacity: 0.7;
+    color: @text;
+}
+
+#custom-applauncher,
+#custom-filemanager,
+#custom-chatgpt{
+    background : @bg;
+    padding: 0 3px;
+    border-radius : 1.6rem;
+    border: 2px solid @light-blue;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.7;
+    margin-left: 15px;
+    min-width: 30px;
+}
+
+#custom-applauncher{
+    min-width: 40px;
+}
+/* -- Quicklinks group -- */
+#custom-filemanager {
+    border-radius: 1.6rem 0px 0px 1.6rem;
+    border-right: none;
+    margin-right: 0;
+}
+
+#custom-chatgpt {
+    border-radius: 0px 1.6rem 1.6rem 0px;
+    border-left: none;
+    margin-left: 0;
+}
+
+/* ############################################ */
+/*                Custom Modules                */
+/* ############################################ */
+
+/* -- Custom Updates -- */
+#custom-updates {
+    background: @bg;
+    margin: 2px 1px 3px 1px;
+    padding: 0px 10px;
+    border-radius: 1.6rem;
+    border: 2px solid @light-blue;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.7;
+}
+
+#custom-updates.green {
+    color: @acqua; 
+}
+
+#custom-updates.yellow {
+    color: @yellow; 
+}
+
+#custom-updates.red {
+    color: @red; 
+}
+
+/* ############################################ */
+/*                Hardware Group                */
+/* ############################################ */
+
+#cpu,
+#memory,
+#disk {
+    background: @bg;
+    border: 2px solid @light-blue;
+    padding: 0 10px;
+}
+
+#cpu {
+    border-radius: 1.6rem 0px 0px 1.6rem;
+    border-right: 0;
+    margin-left: 15px;
+}   
+
+#memory {
+    border-width: 2px 0px;
+}
+
+#disk {
+    border-radius: 0px 1.6rem 1.6rem 0px;
+    border-left: 0;
+}
+
+/* ############################################ */
+/*                    Utility                   */
+/* ############################################ */
+
+#pulseaudio,
+#network,
+#clock{
+    background: @bg;
+    border: 2px solid @light-blue;
+    border-radius: 1.6rem;
+    margin-left: 15px;
+    padding: 0 10px;
+}
+
+#clock {
+    margin-right: 15px;
+}

@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+systemctl --user restart pipewire wireplumber pipewire-pulse
+sleep 2
+killall -e xdg-desktop-portal-hyprland
+killall xdg-desktop-portal
+/usr/lib/xdg-desktop-portal-hyprland &
+sleep 2
+/usr/lib/xdg-desktop-portal &
+
+discord-screenaudio

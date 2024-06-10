@@ -1,0 +1,63 @@
+//__        ___ __   ______    _    ____  
+//\ \      / / \\ \ / / __ )  / \  |  _ \ 
+// \ \ /\ / / _ \\ V /|  _ \ / _ \ | |_) |
+//  \ V  V / ___ \| | | |_) / ___ \|  _ < 
+//   \_/\_/_/   \_\_| |____/_/   \_\_| \_\
+{ 
+    //general settings
+    "layer" : "top",
+    "height" : 16,
+    "margin-top" : 14,
+    "margin-bottom" : 3,
+    "margin-left" : 0,
+    "margin-right" : 0,
+    "spacing" : 0,
+
+    //load modules
+    "include" : ["~/.config/waybar/modules.json"],
+
+    //modules left
+    "modules-left" : [
+        "custom/applauncher",
+        "group/quicklinks",
+        "wlr/taskbar",
+    ],
+    
+    //modules center
+    "modules-center" : [
+        "hyprland/workspaces"
+    ],
+
+    //modules right
+    "modules-right" : [
+        "custom/updates",
+        "pulseaudio",
+        "group/hardware",
+        "network",
+        "custom/exit",
+        "clock"
+
+    ],
+
+    //custom group
+
+    //hardware
+    "group/hardware" : {
+        "orientation" : "horizontal",
+        "modules" : [
+            "cpu",
+            "memory",
+            "disk"
+        ]
+    },
+
+    //quicklinks
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/filemanager",
+            "custom/chatgpt"
+         ]
+    },
+
+}

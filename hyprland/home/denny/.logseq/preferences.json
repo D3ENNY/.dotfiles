@@ -1,0 +1,23 @@
+{
+  "theme": null,
+  "themes": {
+    "mode": "dark",
+    "light": {
+      "name": "Default Light Theme",
+      "url": null,
+      "description": "Logseq default light theme.",
+      "mode": "light",
+      "selected": true,
+      "group-first": true,
+      "group-desc": "light themes"
+    },
+    "dark": {
+      "name": "Dracula theme",
+      "url": "assets:///home/denny/.logseq/plugins/logseq-dracula-theme/custom.css",
+      "description": "🧛 Dark theme for Logseq.",
+      "mode": "dark",
+      "pid": "logseq-dracula-theme"
+    }
+  },
+  "externals": []
+}

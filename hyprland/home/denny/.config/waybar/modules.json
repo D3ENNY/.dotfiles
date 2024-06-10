@@ -1,0 +1,116 @@
+{
+
+  "hyprland/workspaces" : {
+    "format" : "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1"
+  },
+
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 18,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "ignore-list": [],
+    "app_ids-mapping": {
+      "firefox": "firefox"
+    },
+    "rewrite": {
+      "Firefox Web Browser": "Firefox"
+    }
+  },
+
+  "hyprland/window": {
+    "rewrite": {
+      "(.*) -  Mozilla Firefox": "$1"
+    },
+    "separate-outputs": true
+  },
+
+  "custom/filemanager": {
+    "format": "",
+    "on-click": "sh ~/.config/scripts/filemanager.sh",
+    "tooltip": false
+  },
+
+  "custom/chatgpt": {
+    "format": " 󱜸 ",
+    "on-click": "firefox  https://chat.openai.com",
+    "tooltip": false
+  },
+
+  "custom/applauncher": {
+    "format": " 󰣇 ",
+    "on-click": "~/.config/rofi/launchers/type-6/launcher.sh",
+    "tooltip": false
+  },
+
+  "custom/powermenu": {
+    "format": "Exit",
+    "on-click": "~/.config/rofi/powermenu/type-4/launcher.sh"
+  },
+
+  "custom/updates": {
+    "format": "  {}",
+    "tooltip-format": "{}",
+    "escape": true,
+    "return-type": "json",
+    "exec": "sudo /home/denny/.config/scripts/update.sh",
+    "restart-interval": 900,
+    "on-click": "kitty ~/.config/scripts/installPkg.sh",
+    "tooltip": true
+  },
+
+  "tray": {
+    "spacing": 10
+  },
+
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%d-%m-%Y}"
+  },
+
+  "cpu": {
+    "format": " {usage}% "
+  },
+
+  "memory": {
+    "format": "  {}%"
+  },
+
+  "disk": {
+    "interval": 30,
+    "format": " {percentage_used}% "
+  },
+
+  "network": {
+    "interval": 300,
+    "format-ethernet": "󱘖  Wired",
+    "tooltip-format": "󱘖 {ipaddr}\r {bandwidthUpBytes}\r {bandwidthDownBytes}",
+    "format-linked": "󱘖 {ifname} (No IP)",
+    "format-disconnected": "睊 Offline",
+    "on-click": "kitty nmtui"
+    },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", " ", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+
+  "user": {
+    "format": "{user}",
+    "interval": 60,
+    "icon": false
+  }
+}
