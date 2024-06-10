@@ -65,7 +65,6 @@ configs = {
             System.CONFIG_DIR : [
                 "albafetch/",
                 "btop/", 
-                "Code/",
                 "discord-screenaudio/",
                 "fish/",
                 "gtk-2.0/",
